@@ -9,7 +9,7 @@ int main(){
 
     cout << " masukkan nama file :";
     cin  >> NamaFile;
-    
+
     //membuka fuke dalam mode menulis
     ofstream outfile;
     //menunjuk ke sebuah nama file
@@ -33,7 +33,7 @@ int main(){
     //membuka file dalam mode membaca 
     ifstream infile;
     //menunjuk ke sebuah file 
-    infile.open("contohfile.txt");
+    infile.open(NamaFile + ".txt", ios::in );
 
     cout << endl << ">= membuka dan membaca file" << endl;
     //jika file ada maka
