@@ -5,7 +5,11 @@ using namespace std;
 
 int main(){
     string baris;
-  
+    string NamaFile;
+
+    cout << " masukkan nama file :";
+    cin  >> NamaFile;
+    
     //membuka fuke dalam mode menulis
     ofstream outfile;
     //menunjuk ke sebuah nama file
